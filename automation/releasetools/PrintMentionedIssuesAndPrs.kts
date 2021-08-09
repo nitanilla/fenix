@@ -4,6 +4,7 @@ import java.io.IOException
 import java.util.concurrent.TimeUnit
 
 /**
+ * editado por Roxana Q.
  * Script for use when compiling a changelog. It will find all GH mentions in commit
  * messages newer than the HEAD of the passed git tag. If no tag is passed, it will
  * default to the highest versioned tag, as defined by gits `--sort=version:refname`.
